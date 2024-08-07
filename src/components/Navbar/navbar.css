@@ -1,0 +1,44 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+label {
+  display: flex;
+}
+
+.search-form {
+  display: flex;
+  align-items: center;
+}
+.input-group {
+  position: relative;
+  width: 150px;
+}
+input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+  box-shadow: 0 0.7px 0.7px 1px rgba(0, 0, 0, 0.1);
+}
+
+.btn-search {
+  border-radius: 8px;
+  height: 2.5rem;
+  border: none;
+  box-shadow: 0 0.7px 1px rgba(0, 0, 0, 0.1);
+  background-color: white;
+  cursor: pointer;
+  padding: 0 8px;
+}
+
+label {
+  display: none;
+}
+
+figure {
+  margin: 0;
+}

@@ -25,6 +25,7 @@ span {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  white-space: nowrap;
   color: #828282;
 
   margin-inline: 2px;
@@ -40,4 +41,17 @@ h4 {
   justify-content: end;
   margin-inline: 3rem;
   color: #828282;
+}
+button {
+  text-align: center;
+  background-color: white;
+  padding: 4px;
+  height: 30px;
+  border-radius: 12px;
+  border: 1px solid;
+  white-space: nowrap;
+}
+.description {
+  display: flex;
+  max-height: 40px;
 }
